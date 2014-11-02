@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family:"ChaparralPro-Bold";
+	src: url(/wp-content/themes/IngledowDesign/fonts/ChaparralPro-Bold.otf) format("opentype");
+}
+
+@font-face {
+	font-family:"ChaparralPro-BoldIt";
+	src: url(/wp-content/themes/IngledowDesign/fonts/ChaparralPro-BoldIt.otf) format("opentype");
+}
+
+.clear:after {
+content: ""; display: block; clear: both;
+}
+
+.clear {  }
+
+body {
+color: #555;
+font-size: 84%;
+line-height: 150%;
+font-family: Helvetica, Arial, sans-serif;
+font-weight:lighter;
+background: url(/wp-content/themes/IngledowDesign/images/banner.jpg) repeat-x;
+}
+
+body a{
+color:#666;
+-webkit-transition: color 1s, border 0.15s; border-color 1s linear;
+}
+
+body a:hover{
+color:#333;
+-webkit-transition: color 1s, border 0.15s; border-color 1s linear 0.1s; 
+}
+
+h1{
+font-size: 200%;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica Neue, Helvetica, Trebuchet MS, sans-serif;
+font-weight: 300;
+border-bottom-style: solid;
+border-width: 1px;
+border-color: #CCC;
+padding-top:10px;
+padding-bottom: 20px;
+text-align:left;
+}
+
+h2{
+color: #8F8F8F;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica Neue, Helvetica, Trebuchet MS, sans-serif;
+font-weight: 300;
+border-bottom-style: solid;
+border-width: 1px;
+border-color: #CCC;
+padding-bottom: 20px;
+padding-top: 0px;
+text-align:left;
+}
+
+#container {
+width: 960px; margin: 0 auto;
+}
+ 
+#header {
+width:960px; margin: 0 auto;
+padding: 30px 0 0 20px;
+}
+
+#logo{
+float:left;
+margin-left:10px;
+}
+
+#nav{
+font-family:  Helvetica Neue, Helvetica, Trebuchet MS, sans-serif;
+margin-right:35px;
+text-align: right;
+padding-top:45px;
+font-size: 20px;
+width:620px;
+float:right;
+}
+
+#nav ul{
+margin: 0;
+padding:0;
+list-style:none;
+
+}
+
+#nav ul li{
+display: inline;
+word-spacing: -5px;
+padding: .2em 1em;
+}
+
+#nav ul li a{
+color:#666;
+text-decoration: none;
+}
+
+#nav ul li a:hover{
+color:#333;
+border-bottom: 3px solid #333;
+padding-bottom: 5px;
+}
+			
+#banner {
+clear: both; height: 285px;
+}
+
+#banner-text{
+	letter-spacing:1px;
+text-align:left;
+width:930px;
+padding: 70px 0 0 0;
+font-family: 'ChaparralPro-Bold', Georgia, serif;
+font-size: 42px;
+color: #f3f3f3;
+line-height: 175%;
+margin-left: 10px;
+text-shadow: #333 -1.5px -1.5px 1px;
+}
+
+
+span.banner{
+font-family: 'ChaparralPro-BoldIt', Georgia, serif;
+font-weight:bold;
+font-style:italic;
+text-shadow: #333 -1.5px -1.5px 1px;
+text-shadow: #999 -1.5px -1.5px 10px;
+}
+
+span.banner a{
+text-decoration:none;
+color: #f3f3f3;
+}
+
+span.banner a:hover{
+color: #e1e1e1;
+}
+		
+#content {
+padding: 0 0 50px 0;
+}
+
+	
+#content #main {
+width: 615px; float: left; margin: 0 20px 0 20px;	
+}
+
+.left{
+float: left;
+width: 47%;
+margin: 0 30px 0 0;
+}
+
+.right{
+float: right;
+width: 47%; margin: 0 0 0 0;
+}
+
+.p-indent{
+	margin-left:88px;
+}
+
+#editentry{
+	clear:both;
+}
+
+#content #side {
+width: 250px; float: left; margin: 0 0 0 20px;
+}
+
+#content #side .quote{
+	margin-bottom:-7px;
+}
+
+#content #side .fade{
+position: relative;
+margin-bottom: -7px;
+}
+
+.fade{
+position: relative;
+}
+
+.fade div{
+position: absolute;
+top: 0;
+left: 0;
+display: none;
+}
+
+#twitter_update_list{
+margin-left:-37px;
+text-align:left;
+}
+	
+#footer-container {
+background: #CCCCCC;
+margin-left:-8px;
+margin-right:-8px;
+margin-bottom:-8px;
+}
+
+#footer {
+width: 960px; margin: 0 auto; padding: 30px 0 50px 0;
+background: url(/wp-content/themes/IngledowDesign/images/footer-shadow.jpg) center top no-repeat;
+padding-top: 30px;
+padding-left:30px;
+height:80px;
+}
+
+#footer p{
+font-size:80%;
+}
+
+#adminlinks{
+	float:right;
+	width:320px;
+}
+
+#copyright{
+	float:right;
+	width:320px;
+}
+
+#validfooter{
+	width:320px;
+}
+
+#validfooter div{
+        padding-top:5px;
+	float:left;
+        margin-right:5px;
+}
+
+
+/* Blog CSS Settings */
+
+.NewsSummaryPostdate{
+font-size: 83%;
+background: url(uploads/images/comments.jpg) no-repeat;
+padding: 8px 0 8px 12px;
+font-weight: bold;
+}
